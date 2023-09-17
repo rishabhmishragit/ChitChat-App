@@ -28,7 +28,7 @@ const server = app.listen(process.env.PORT,()=>{
 
 const io =socket(server,{
     cors:{
-        origin:"http://localhost:5001",
+        origin:"https://chitchat-aqep.onrender.com",
         credentials:true
     }
 });
